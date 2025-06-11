@@ -2,14 +2,14 @@
 
 This is a basic embedded C project that toggles an LED connected to GPIO2 on an ESP32 board. Built with the **ESP-IDF framework**, this is the classic "Hello World" for embedded systems — a perfect starting point for beginners getting into real-time OS and embedded C programming.
 
-## 🚀 Project Overview
+## Project Overview
 
 - **Board**: ESP32 DevKit
 - **Framework**: [ESP-IDF](https://docs.espressif.com/projects/esp-idf/en/latest/)
 - **Language**: Embedded C (with FreeRTOS)
 - **Function**: Blinks an onboard LED (GPIO2) at 1-second intervals
 
-## 🛠️ How It Works
+## How It Works
 
 1. Initializes GPIO2 as an output pin.
 2. Turns the LED ON for 1 second.
